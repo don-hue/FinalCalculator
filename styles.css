@@ -1,0 +1,228 @@
+body {
+    margin:0 0 0 0;
+    
+}
+.MainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-top:0 0 0 0;
+    background-color: #D83A56;
+}
+
+.text{
+    margin-bottom: 50px;
+    
+    font-family: 'Teko', sans-serif;
+    font-size: 40px;
+
+    color: blanchedalmond;
+}
+
+.OuterBox {
+    display:grid;
+    grid-template-columns: [col0] 1fr [col1] 1fr [col2] 1fr [col3] 1fr;
+    grid-template-rows: [row0] 1fr [row1] 1fr [row2] 1fr [row3] 1fr [row4] 1fr [row5] 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+
+    padding: 10px 10px 10px 10px;
+    background-color: #FF616D;
+    height: 500px; 
+    width: 350px;
+    border: solid 2px;
+    border-radius: 10px;
+    border-color: #66DE93;
+   
+}
+.design {
+    display: inline-grid;
+    border-radius: 10px;
+    justify-items: center;
+    align-content: center;
+
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+
+    border-color: blanchedalmond;
+    background-color: #FFEAC9;
+}
+
+.design:hover{
+    border-color:#66DE93;
+    background-color: #fae2bb;
+
+}
+
+
+.Output{
+    background-color:#FFEAC9;
+    border-color: blanchedalmond;
+    grid-column-start: col0;
+    grid-column-end: col5;
+    grid-row-start: row0;
+    grid-row-end: row1;
+
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+
+    border-radius: 10px;
+
+    display: inline-grid;
+    justify-items: center;
+    align-content: center;
+
+}
+.Clear {
+    background-color: rgb(228, 206, 182);
+    grid-column-start: col0;
+    grid-column-end: col2;
+    grid-row-start: row1;
+    grid-row-end: row2;
+    
+}
+
+.Delete {
+    background-color: rgb(228, 206, 182);
+    grid-column-start: col2;
+    grid-column-end: col6;
+    grid-row-start: row1;
+    grid-row-end: row2;
+
+}
+
+.seven {
+    background-color: blanchedalmond;
+    grid-column-start: col0;
+    grid-column-end: col1;
+    grid-row-start: row2;
+    grid-row-end: row3;
+
+}
+.eight {
+    background-color: blanchedalmond;
+    grid-column-start: col1;
+    grid-column-end: col2;
+    grid-row-start: row2;
+    grid-row-end: row3;
+}
+
+.nine {
+    background-color: blanchedalmond;
+    grid-column-start: col2;
+    grid-column-end: col3;
+    grid-row-start: row2;
+    grid-row-end: row3;
+}
+
+.divide {
+    background-color: blanchedalmond;
+    grid-column-start: col3;
+    grid-column-end: col4;
+    grid-row-start: row2;
+    grid-row-end: row3;
+}
+
+.four {
+    background-color: blanchedalmond;
+    grid-column-start: col0;
+    grid-column-end: col1;
+    grid-row-start: row3;
+    grid-row-end: row4;
+}
+
+.five {
+    background-color: blanchedalmond;
+    grid-column-start: col1;
+    grid-column-end: col2;
+    grid-row-start: row3;
+    grid-row-end: row4;
+}
+
+.six {
+    background-color: blanchedalmond;
+    grid-column-start: col2;
+    grid-column-end: col3;
+    grid-row-start: row3;
+    grid-row-end: row4;
+}
+
+.multiply {
+    background-color: blanchedalmond;
+    grid-column-start: col3;
+    grid-column-end: col4;
+    grid-row-start: row3;
+    grid-row-end: row4;
+}
+
+.one {
+    background-color: blanchedalmond;
+    grid-column-start: col0;
+    grid-column-end: col1;
+    grid-row-start: row4;
+    grid-row-end: row5;
+}
+
+.two {
+    background-color: blanchedalmond;
+    grid-column-start: col1;
+    grid-column-end: col2;
+    grid-row-start: row4;
+    grid-row-end: row5;
+}
+
+.three {
+    background-color: blanchedalmond;
+    grid-column-start: col2;
+    grid-column-end: col3;
+    grid-row-start: row4;
+    grid-row-end: row5;
+}
+
+.minus {
+    background-color: blanchedalmond;
+    grid-column-start: col3;
+    grid-column-end: col4;
+    grid-row-start: row4;
+    grid-row-end: row5;
+}
+
+.dot {
+    background-color: blanchedalmond;
+    grid-column-start: col0;
+    grid-column-end: col1;
+    grid-row-start: row5;
+    grid-row-end: row6;
+}
+
+.zero {
+    background-color: blanchedalmond;
+    grid-column-start: col1;
+    grid-column-end: col2;
+    grid-row-start: row5;
+    grid-row-end: row6;
+}
+
+.plus {
+    background-color: blanchedalmond;
+    grid-column-start: col2;
+    grid-column-end: col3;
+    grid-row-start: row5;
+    grid-row-end: row6;
+}
+
+.equal {
+    background-color: blanchedalmond;
+    grid-column-start: col3;
+    grid-column-end: col4;
+    grid-row-start: row5;
+    grid-row-end: row6;
+}
+
+.keyPress{
+    border-color:#66DE93;
+    background-color: #e9bf7c;
+    transition: all 0.1s ;
+}
